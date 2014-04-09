@@ -1,0 +1,19 @@
+{
+  "name": "Mackenzie Fast Login",
+  "description": "Entre na pagina do TIA e no Moodle da Universidade Mackenzie/SP rapidamente!",
+  "version": "1.1",
+  "permissions": [
+    
+  ],
+  "browser_action": {
+      "default_title": "Mackenzie Fast Login",
+      "default_icon": "icon32.png",
+      "default_popup": "popup.html"
+  },
+  "icons": {
+      "16": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.jpg"
+  },
+  "manifest_version": 2
+}

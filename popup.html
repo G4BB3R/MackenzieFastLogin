@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mackenzie Fast Login</title>
+    <meta charset="UTF-8"/>
+    <script src="popup.js"></script>
+<style>
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: #F24;
+    } 
+    form {
+      display: none;
+    }   
+</style>    
+</head>
+<body>
+
+  <form name="tia" method="post" action="http://www3.mackenzie.com.br/tia/verifica.php" target="_blank">
+    <input type="hidden" name="alumat" /><br/>    
+    <input type="hidden" name="pass"   />
+    <input type="hidden" name="unidade" value="001" /> 
+  </form>
+  <form name="moodle" method="post" action="https://ead.mackenzie.br/moodle/login/index.php?authldap_skipntlmsso=1" target="_blank">
+    <input type="hidden" name="username" /><br/>
+    <input type="hidden" name="password" />    
+  </form>
+  
+  <input type="text"     name="txtLogin" placeholder="TIA" />
+  <input type="password" name="txtSenha" placeholder="Senha" />
+  <button name="btnTia">TIA</button>
+  <button name="btnMoodle">Moodle</button>
+  <button name="btnSave">Save</button>
+    
+</body>
+</html>
