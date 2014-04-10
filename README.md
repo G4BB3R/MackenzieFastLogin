@@ -8,9 +8,14 @@ Versão publicada na Chrome Web Store para usar:
 https://chrome.google.com/webstore/detail/mackenzie-fast-login/cpdkmkookmbnjpajidbfflbpiojhnafb?hl=pt-BR
 
 
-Arquivos Essenciais
-==================
+## Arquivos Essenciais
 
 - manifest.json
 - popup.html
 - popup.js
+
+
+## License
+
+Copyright (c) 2014 Gabriel Torrecillas Sartori
+Released under the [MIT licence]().
