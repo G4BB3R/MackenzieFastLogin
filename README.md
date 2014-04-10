@@ -18,4 +18,5 @@ https://chrome.google.com/webstore/detail/mackenzie-fast-login/cpdkmkookmbnjpaji
 ## License
 
 Copyright (c) 2014 Gabriel Torrecillas Sartori
+
 Released under the [MIT licence](https://github.com/G4BB3R/MackenzieFastLogin/blob/master/LICENCE).
